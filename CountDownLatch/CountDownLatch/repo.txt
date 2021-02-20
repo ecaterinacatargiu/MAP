@@ -1,0 +1,1697 @@
+Id=1
+ExeStack:
+	Ref(int) v1;Ref(int) v2;Ref(int) v3;newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	Ref(int) v1
+	Ref(int) v2;Ref(int) v3;newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	Ref(int) v1
+	Ref(int) v2;Ref(int) v3;newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	Ref(int) v2;Ref(int) v3;newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	Ref(int) v2;Ref(int) v3;newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	Ref(int) v2
+	Ref(int) v3;newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	Ref(int) v2
+	Ref(int) v3;newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	Ref(int) v3;newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v2-->(0,int)
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	Ref(int) v3;newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v2-->(0,int)
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	Ref(int) v3
+	newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v2-->(0,int)
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	Ref(int) v3
+	newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v2-->(0,int)
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(0,int)
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v1, 2);newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(0,int)
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v1, 2)
+	newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(0,int)
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v1, 2)
+	newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(0,int)
+	v1-->(0,int)
+Output:
+FileTable:
+Heap:
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(0,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v2, 3);newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(0,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v2, 3)
+	newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(0,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v2, 3)
+	newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(0,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v3, 4);newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v3, 4)
+	newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newH(v3, 4)
+	newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(0,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newLatch(cnt, rH(v2));fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newLatch(cnt, rH(v2))
+	fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	newLatch(cnt, rH(v2))
+	fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt));fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt))
+	fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt))
+	fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=2
+ExeStack:
+	wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt)
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt));fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=2
+ExeStack:
+	wH(v1, rH(v1)*10);print (rH(v1));countDown(cnt)
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt))
+	fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=2
+ExeStack:
+	wH(v1, rH(v1)*10)
+	print (rH(v1));countDown(cnt)
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt))
+	fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=2
+ExeStack:
+	wH(v1, rH(v1)*10)
+	print (rH(v1));countDown(cnt)
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->2
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=2
+ExeStack:
+	print (rH(v1));countDown(cnt)
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=3
+ExeStack:
+	wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt)
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt));await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=2
+ExeStack:
+	print (rH(v1));countDown(cnt)
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=3
+ExeStack:
+	wH(v2, rH(v2)*10);print (rH(v2));countDown(cnt)
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt))
+	await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=2
+ExeStack:
+	print (rH(v1))
+	countDown(cnt)
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=3
+ExeStack:
+	wH(v2, rH(v2)*10)
+	print (rH(v2));countDown(cnt)
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	fork(wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt))
+	await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=2
+ExeStack:
+	print (rH(v1))
+	countDown(cnt)
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=3
+ExeStack:
+	wH(v2, rH(v2)*10)
+	print (rH(v2));countDown(cnt)
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+FileTable:
+Heap:
+	1->20
+	2->3
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=2
+ExeStack:
+	countDown(cnt)
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=3
+ExeStack:
+	print (rH(v2));countDown(cnt)
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=4
+ExeStack:
+	wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt)
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt);print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=2
+ExeStack:
+	countDown(cnt)
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=3
+ExeStack:
+	print (rH(v2));countDown(cnt)
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=4
+ExeStack:
+	wH(v3, rH(v3)*10);print (rH(v3));countDown(cnt)
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->3
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt)
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->2
+-------------------------------
+Id=2
+ExeStack:
+SymTable_2:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->2
+-------------------------------
+Id=3
+ExeStack:
+	print (rH(v2))
+	countDown(cnt)
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->2
+-------------------------------
+Id=4
+ExeStack:
+	wH(v3, rH(v3)*10)
+	print (rH(v3));countDown(cnt)
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->2
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt)
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->2
+-------------------------------
+Id=3
+ExeStack:
+	print (rH(v2))
+	countDown(cnt)
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->2
+-------------------------------
+Id=4
+ExeStack:
+	wH(v3, rH(v3)*10)
+	print (rH(v3));countDown(cnt)
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->4
+LatchTable:
+	0->2
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt)
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->2
+-------------------------------
+Id=3
+ExeStack:
+	countDown(cnt)
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->2
+-------------------------------
+Id=4
+ExeStack:
+	print (rH(v3));countDown(cnt)
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->2
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt)
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->2
+-------------------------------
+Id=3
+ExeStack:
+	countDown(cnt)
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->2
+-------------------------------
+Id=4
+ExeStack:
+	print (rH(v3));countDown(cnt)
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->2
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt)
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->1
+-------------------------------
+Id=3
+ExeStack:
+SymTable_3:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->1
+-------------------------------
+Id=4
+ExeStack:
+	print (rH(v3))
+	countDown(cnt)
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->1
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt)
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->1
+-------------------------------
+Id=4
+ExeStack:
+	print (rH(v3))
+	countDown(cnt)
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->1
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt)
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->1
+-------------------------------
+Id=4
+ExeStack:
+	countDown(cnt)
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->1
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt)
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->1
+-------------------------------
+Id=4
+ExeStack:
+	countDown(cnt)
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->1
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt)
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=4
+ExeStack:
+SymTable_4:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	await(cnt)
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	print (100);countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	print (100)
+	countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	print (100)
+	countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+	100
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	countDown(cnt);print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+	100
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	countDown(cnt)
+	print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+	100
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	countDown(cnt)
+	print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+	100
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+	100
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+	print (100)
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+	100
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
+Id=1
+ExeStack:
+SymTable_1:
+	cnt-->0
+	v3-->(3,int)
+	v2-->(2,int)
+	v1-->(1,int)
+Output:
+	20
+	PrgStateId: 2
+	30
+	PrgStateId: 3
+	40
+	PrgStateId: 4
+	100
+	100
+FileTable:
+Heap:
+	1->20
+	2->30
+	3->40
+LatchTable:
+	0->0
+-------------------------------
